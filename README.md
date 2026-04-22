@@ -6,18 +6,24 @@ Docker
 Step 1: Download the install script
 
 curl -fsSL https://get.docker.com -o get-docker.sh
+
 Step 2: Execute permission for the script
 
 sudo chmod +x get-docker.sh
+
 Step 3: Execute the script
 
 ./get-docker.sh
+
 Step 4: Remove the script
 
 rm get-docker.sh
+
 Step 5: To manage Docker as a non-root user
 
 sudo usermod -aG docker $USER
+
+###
 docker compose --version
 docker --version
 
